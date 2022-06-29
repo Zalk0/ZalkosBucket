@@ -13,7 +13,7 @@
     "bin": "CuraEngine.exe",
     "shortcuts": [
         [
-            "Ultimaker-Cura.exe",
+            "Cura.exe",
             "Ultimaker Cura 4"
         ]
     ],
