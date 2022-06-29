@@ -10,7 +10,12 @@
         }
     },
     "pre_install": "Remove-Item \"$dir\\Uninstall*\", \"$dir\\`$*\", \"$dir\\vcredist_*.exe\" -Recurse",
-    "bin": "CuraEngine.exe",
+    "bin": [
+        [
+            "CuraEngine.exe",
+            "curaengine4"
+        ]
+    ],
     "shortcuts": [
         [
             "Cura.exe",
