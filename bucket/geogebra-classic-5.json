@@ -22,7 +22,7 @@
         ]
     ],
     "checkver": {
-        "url": "https://download.geogebra.org/installers/5.2/version.txt",
+        "url": "https://download.geogebra.org/installers/5.4/version.txt",
         "regex": "\\d-(\\d+)-(\\d+)-(\\d+)",
         "replace": "5.${1}.${2}.${3}"
     },
